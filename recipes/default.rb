@@ -11,3 +11,9 @@ end
 execute 'making core storage writable' do
 	command 'sudo chmod -R a+w /home/ubuntu/apps/core/app/storage'
 end
+
+git '/home/ubuntu/apps/core/app/config/production' do
+	repository 'gitlab@gitlab.owlgrin.com:horntell/configs.git'
+	revision 'core'
+	action :sync
+end
