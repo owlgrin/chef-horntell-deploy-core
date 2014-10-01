@@ -9,5 +9,5 @@ composer_project '/home/ubuntu/apps/core' do
 end
 
 execute 'making core storage writable' do
-	command 'sudo chmod -R a+w /home/ubuntu/apps/core'
+	command 'sudo chmod -R a+w /home/ubuntu/apps/core/app/storage'
 end
