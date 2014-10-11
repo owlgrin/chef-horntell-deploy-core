@@ -1,10 +1,10 @@
 # deploy-core-cookbook
 
-TODO: Enter the cookbook description here.
+The cookbook deploys the Horntell Core into production.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu.
 
 ## Attributes
 
