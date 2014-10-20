@@ -39,4 +39,4 @@ Include `deploy-core` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Mohit Mamoria (mohit@owlgrin.com)
