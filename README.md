@@ -4,7 +4,7 @@ The cookbook deploys the Horntell Core into production.
 
 ## Supported Platforms
 
-Ubuntu.
+Ubuntu 14.04.
 
 ## Attributes
 
