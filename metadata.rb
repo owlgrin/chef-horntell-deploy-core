@@ -1,5 +1,5 @@
 name             'deploy-core'
-maintainer       'YOUR_NAME'
+maintainer       'Mohit Mamoria'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
 description      'Installs/Configures deploy-core'
