@@ -12,6 +12,7 @@ execute "Making '/home/ubuntu/apps/core' storage writable" do
 	command "sudo chmod -R a+w /home/ubuntu/apps/core/app/storage"
 end
 
+# the production configs will come from another private repo
 git "/home/ubuntu/apps/core/app/config/production" do
 	repository 'gitlab@gitlab.owlgrin.com:horntell/configs.git'
 	revision 'core'
