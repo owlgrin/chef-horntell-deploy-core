@@ -8,6 +8,7 @@ composer_project '/home/ubuntu/apps/core' do
 	action :update
 end
 
+# making storage is important, otherwise pages will not load
 execute "Making '/home/ubuntu/apps/core' storage writable" do
 	command "sudo chmod -R a+w /home/ubuntu/apps/core/app/storage"
 end
