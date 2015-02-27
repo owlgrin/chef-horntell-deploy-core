@@ -19,3 +19,12 @@ git "/home/ubuntu/apps/core/app/config/production" do
 	revision 'core'
 	action :sync
 end
+
+# move the .env file to the root of project
+file "/home/ubuntu/apps/core/.env.production.php" do
+  owner 'ubuntu'
+  group 'ubuntu'
+  mode 0755
+  content ::File.open("/home/ubuntu/apps/core/app/config/production/.env.production.php").read
+  action :create
+end
