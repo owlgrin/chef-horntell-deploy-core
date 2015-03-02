@@ -22,16 +22,9 @@ end
 
 # move the .env file to the root of project
 remote_file "Copy .env.production file" do 
-  path "/home/ubuntu/apps/core/.env.production.php" 
+  path "/home/ubuntu/apps/core/.env.php" 
   source "file:///home/ubuntu/apps/core/app/config/production/.env.production.php"
   owner 'ubuntu'
   group 'ubuntu'
   mode 0755
 end
-# file "/home/ubuntu/apps/core/.env.production.php" do
-#   owner 'ubuntu'
-#   group 'ubuntu'
-#   mode 0755
-#   content ::File.open("/home/ubuntu/apps/core/app/config/production/.env.production.php").read
-#   action :create
-# end
