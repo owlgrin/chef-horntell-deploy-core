@@ -5,7 +5,7 @@ git '/home/ubuntu/apps/core' do
 end
 
 composer_project '/home/ubuntu/apps/core' do
-	action :update
+	action :install
 end
 
 # making storage is important, otherwise pages will not load
